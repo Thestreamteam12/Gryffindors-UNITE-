@@ -1,13 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
 h1{
     color:#FFDF00;
-    text-align:center;
-    
+    text-align: center;
+    font-family: 'Princess Sofia', cursive;
 }
 
 body{
-    background-color:red;
+    background-color:#d62828;
 }
+
+.a{
+    height:300px;
+    margin-left: 520px;
+    margin-top: -10px;
+}
+input[type=text] {
+    width: 120px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 25%;
+}
+#s{
+    float: right;
+}
+
 button{
-    color:black;
-    float:left;
+    float:right; 
+}
+
+
+#Carousel {
+    margin-bottom: 10px;
+    height: 500px;
+}
+#Carousel img{
+    margin:0 auto
+}
+#n{
+ float:right;   
+}
+
+h5{
+    color: white; 
+    font-size: large;
+    
+}
+
+.loll{
+    width:50%;
+}
+#imgCarousel,#textCarousel{
+    display:none;
+}
+
+/*Line from here on starts with the CSS for "History of Hogwarts" page!*/
+
+#historyHeader {
+    color: #FFDF00;
+    text-align: center;
+    font-family: 'Princess Sofia', cursive;
+    
+}
+img{
+    height:370px; 
+}
+
+#beginnings {
+    color: #FFDF00;
+    font-family: "Princess Sofia", cursive;
+    text-align: center;
+    margin-top: -1px;
+}
+
+#hogwarts {
+    width: 600px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+#beginningsDesc {
+    color: #FFDF00;
+    font-family: "Bad Script";
+    font-size: x-large;
+    margin-top: -450px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+#me{
+    color:white;
+}
+
+#traitsDesc{
+    color:#FFDF00;
+     font-family: "Bad Script";
+    font-size: x-large;
+    margin-top: -440px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+#traitsHeader{
+    color:#FFDF00;
+     font-family: "Bad Script";
+}
+
+#chamber {
+    margin-top: 270px;
+    margin-left: -550px;
+    width: 550px;
+    height: 400px;
+}
+
+#chamberTitle {
+    color: #FFDF00;
+    font-family: "Princess Sofia", cursive;
+}
+
+#ch {
+    margin-left: 820px;
+    margin-top: -650px;
+}
+
+#chamberDesc {
+    margin-left: 690px;
+    margin-top: -150px;
+    font-family: "Bad Script";
+    font-size: x-large;
+}
+
+#harr {
+    margin-left: 740px;
+}
+
+.games{
+   font-family: "Bad Script";    
+}
+
+#housecupDesc{
+     color:#FFDF00;
+     font-family: "Bad Script";
+    font-size: x-large;
+    margin-top: -440px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.games{
+    color:#FFDF00;
+     font-family: "Bad Script";
+    font-size: x-large;
+    margin-top: -20px;
+    text-align: center;
+    margin-left: 30px;
+}
+.info{
+     color:#FFDF00;
+     font-family: "Bad Script";
+    font-size: x-large;
+    margin-top: -420px;
+    text-align: center;
+    margin-left: 30px;
+}
+#high{
+    margin-top: 70px;
 }
