@@ -1,7 +1,7 @@
 $(document).ready(function(){
    $("#imgCarousel,#textCarousel").carousel({
     interval:3000,
-    cycle:true;
+    cycle:true
    });
    
     $('ul li').click(function(){
@@ -20,7 +20,17 @@ $(document).ready(function(){
     clicked_tab.siblings('li').not(clicked_tab).removeClass('active');
  });
  
+ var audio = document.getElementById("myAudio");
+
+$("#homeMenu").click(function() {
+  if(audio.paused) {
+      audio.play();
+  }else {
+      audio.pause();
+  }
+  //myAudio.paused ? myAudio.paused() : myAudio.play();
+});
   
- });
+});
  
  
