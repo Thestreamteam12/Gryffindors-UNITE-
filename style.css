@@ -15,8 +15,8 @@ body{
 #homeMenu{
     height:400px;
     width: 400px;
-    margin: auto;
-    display: block;
+    margin-left: 480px;
+        
 }
 input[type=text] {
     width: 120px;
@@ -81,15 +81,13 @@ img{
     color: #EEBA30;
     font-family: "Princess Sofia", cursive;
     text-align: center;
-    margin-top: -1px;
-    font-size:50px;
-    
+    margin-top: 1px;
 }
 
 #hogwarts {
     width: 600px;
-    height: 500px;
-    margin-top: 20px;
+    height: 550px;
+    margin-top: 90px;
 }
 
 
@@ -111,8 +109,6 @@ img{
     font-family: "Princess Sofia", cursive;
     text-align: center;
     margin-top: -25px;
-    font-size:50px;
-    
 }
 
 #chamberDesc {
@@ -121,7 +117,6 @@ img{
     font-size: x-large;
     text-align: center;
     margin-top: 0px;
-    margin-left: -20px;
     background-color: #740001;
     border-color: #AE0001;
     border-radius: 20px;
@@ -129,39 +124,29 @@ img{
     border-width: 6px;
 }
 
-#cham {
-    margin-top: -30px;
-}
-
 #chamimg {
     width: 550px;
     height: 500px;
-    margin-top: 20px;
-    margin-left: 70px;
+    margin-top: 50px;
+    margin-left: 45px;
 }
 
 #modernTimes {
     color: #EEBA30;
     font-family: "Princess Sofia", cursive;
     text-align: center;
-    font-size:50px;
-    
 }
 
 #modernDesc {
     margin-top: -5px;
-    background-color: #740001;
-    border-color: #AE0001;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 6px;
+    margin-left: 20px;
 }
 
 #harry {
     width: 600px;
-    height: 500px;
+    height: 520px;
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #me{
@@ -179,25 +164,29 @@ img{
     border-radius: 20px;
     border-style: solid;
     border-width: 6px;
+    
 }
 
 #traitsHeader{
     color:#EEBA30;
-     font-family: "Princess Sofia", cursive;
+    font-family: "Princess Sofia", cursive;
+    font-size:50px;
+    
 }
 
 #slythTraitsHeader {
     color: #EEBA30;
     font-family: "Princess Sofia", cursive;
     font-size:50px;
+    
 }
 
 #slythTraitsDesc {
     color: #EEBA30;
     font-family: "Bad Script";
-    font-size:x-large;
-    text-align:center;
-    line-height:250%;
+    font-size: x-large;
+    text-align: center;
+    line-height: 250%;
     background-color: #740001;
     border-color: #AE0001;
     border-radius: 20px;
@@ -209,23 +198,39 @@ img{
      color:#EEBA30;
      font-family: "Bad Script";
     font-size: x-large;
-    margin-top: -1399px;
     text-align: center;
-    margin-left: 20px;
-    line-height: 35px;background-color: #740001;
+    margin-left: 30px;
+    line-height: 35px;
+    background-color: #740001;
     border-color: #AE0001;
-    border-radius: 50px;
+    border-radius: 20px;
     border-style: solid;
     border-width: 6px;
 }
 
+.games{
+    color:#EEBA30;
+    font-family: "Bad Script";
+    font-size: x-large;
+    margin-top: -20px;
+    text-align: center;
+    margin-left: 30px;
+}
 .info{
      color:#EEBA30;
      font-family: "Bad Script";
     font-size: x-large;
-    margin-top: -800px;
     text-align: center;
     margin-left: 30px;
+    background-color: #740001;
+    border-color: #AE0001;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 6px;
+    margin-top: -926px;
+}
+#high{
+    margin-top: 70px;
 }
 
 .captions{
@@ -286,18 +291,9 @@ button{
 
 .game-info{
     color:#EEBA30;
-    font-family: "Bad Script";
+     font-family: "Bad Script";
     font-size: x-large;
-    text-align: center;
-    
-    
-}
-
-.housecupDesc2{
-    color:#EEBA30;
-    font-family: "Bad Script";
-    font-size: x-large;
-    margin-top: 240px;
+    margin-top: 100px;
     text-align: center;
     margin-left: 30px;
     background-color: #740001;
@@ -305,28 +301,32 @@ button{
     border-radius: 20px;
     border-style: solid;
     border-width: 6px;
+    
 }
 
 #raveTraitsDesc{
     color:#EEBA30;
-    font-family: "Bad Script";
+     font-family: "Bad Script";
     font-size: x-large;
+    margin-top: 6px;
     text-align: center;
     margin-left: 30px;
-    line-height: 250%;
     background-color: #740001;
     border-color: #AE0001;
     border-radius: 20px;
     border-style: solid;
     border-width: 6px;
+    line-height: 250%;
 }
 
 #huffTraitsDesc{
     color: #EEBA30;
     font-family: "Bad Script";
     font-size: x-large;
+    margin-top: -3px;
     text-align: center;
-     background-color: #740001;
+    margin-left: 30px;
+    background-color: #740001;
     border-color: #AE0001;
     border-radius: 20px;
     border-style: solid;
@@ -339,6 +339,7 @@ button{
     font-family: "Princess Sofia", cursive;
     text-align: center;
     font-size:50px;
+        
 }
 
 #see {
@@ -347,6 +348,8 @@ button{
     border-radius: 20px;
     border-style: solid;
     border-width: 6px;
+    width: 1350px;
+    margin-left: 15px;
 }
 
 #about {
@@ -373,7 +376,8 @@ button{
     font-size: x-large;
     margin-top: 190px;
     text-align: center;
-     background-color: #740001;
+    margin-left: 30px;
+    background-color: #740001;
     border-color: #AE0001;
     border-radius: 20px;
     border-style: solid;
@@ -386,60 +390,46 @@ button{
 }
 
 spam {
-    font-family: Arial;
+    font-style: inherit;
 }
 
 #games {
     width: 490px;
-    margin-left: 95px;
-    font-size:50px;
+    font-size: 70px;
+    margin-left: 410px;
     
 }
-
-#quidDesc {
-    background-color: #740001;
-    border-color: #AE0001;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 6px;
-    line-height: 250%;
-    margin-left: 50px;
+#raveTraitsHeader{
+    font-size:50px;
 }
 
-#games1{
-    height:500px;
+#hog {
+    height: 500px;
+    width: 650px;
+}
+
+#hogwarts2 {
+    margin-top: 180px;
+}
+
+#raveTraitImg {
+    margin-top: 60px;
+}
+#huffTraitImg {
+    margin-top: 30px;
+}
+
+#games2 {
+    margin-top: -80px;
+}
+
+#gamesImg {
+    margin-left: 100px;
+    height: 500px;
     width: 500px;
-    margin-left: 60px;
-    margin-top:-10px;
 }
 
-#games2{
-    margin-top:100px;
-    height:-500px;
-    width: 500px;
-    margin-left: 20px;
-}
-
-#housecupHeader{
-    font-size:50px;
-}
-
-
-#traitsHeader{
-    font-size:50px;
-}
-
-#raveTraitsHeader {
-    margin-top: -0px;
-    font-size:50px;
-    
-}
-#quidScores{
-    background-color: #740001;
-    border-color: #AE0001;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 6px;
-    line-height: 250%;
-    margin-left: 50px;
+#gamesDesc {
+    line-height: 200%;
+    margin-top: -1020px;
 }
