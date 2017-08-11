@@ -73,15 +73,13 @@ img{
     float: left;
 }
 
-#row2 {
-    float: left;
-}
 
 #beginnings {
     color: #EEBA30;
     font-family: "Princess Sofia", cursive;
     text-align: center;
     margin-top: 1px;
+    font-size: 50px;
 }
 
 #hogwarts {
@@ -109,6 +107,7 @@ img{
     font-family: "Princess Sofia", cursive;
     text-align: center;
     margin-top: -25px;
+    font-size: 50px;
 }
 
 #chamberDesc {
@@ -125,7 +124,7 @@ img{
 }
 
 #chamimg {
-    width: 550px;
+    width: 500px;
     height: 500px;
     margin-top: 50px;
     margin-left: 45px;
@@ -135,6 +134,7 @@ img{
     color: #EEBA30;
     font-family: "Princess Sofia", cursive;
     text-align: center;
+    font-size: 50px;
 }
 
 #modernDesc {
@@ -421,6 +421,7 @@ spam {
 
 #games2 {
     margin-top: -80px;
+    margin-left: 100px;
 }
 
 #gamesImg {
